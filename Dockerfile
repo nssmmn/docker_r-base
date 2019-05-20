@@ -9,6 +9,8 @@ RUN apt-get install -y\
 	libsasl2-dev \
 	libcurl4-gnutls-dev \
 	libxml2-dev \
+	libudunits2-dev \
+	libgdal-dev \
 	librsvg2-dev \
 	pdftk
 
@@ -28,5 +30,8 @@ RUN install2.r readr
 RUN install2.r purrr
 RUN install2.r curl
 RUN install2.r RCurl
+RUN install2.r mongolite
+RUN install2.r sf
+RUN install2.r modules
 
 CMD R
