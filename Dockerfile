@@ -1,6 +1,7 @@
 FROM rocker/r-base:latest
 
 LABEL maintainer="Nassim Kaddour <nssmmn@gmail.com>"
+LABEL version="0.2.1"
 
 RUN apt-get update
 
